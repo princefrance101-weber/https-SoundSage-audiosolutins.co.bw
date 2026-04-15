@@ -1,0 +1,90 @@
+<!-- ================= index.html ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundSage Audio Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <img src="images/logo/soundsage-logo.jpg" class="logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Sound Sage Audio Solutions</h1>
+      <p>Premium Car Audio & Stance Parts in Botswana</p>
+      <a href="https://wa.me/26777730365?text=Hi%20I%20want%20to%20buy%20from%20SoundSage" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- FILTER BUTTONS -->
+  <section class="filters">
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('audio')">Audio</button>
+    <button onclick="filterProducts('stance')">Stance</button>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+
+    <div class="grid">
+
+      <div class="card audio">
+        <span class="badge">Hot 🔥</span>
+        <img src="images/products/audio/subwoofer.jpg">
+        <h3>Subwoofer</h3>
+        <p class="price">P1500</p>
+        <a href="https://wa.me/26777730365?text=I%20want%20the%20Subwoofer" class="buy">Buy</a>
+      </div>
+
+      <div class="card audio">
+        <img src="images/products/audio/amplifier.jpg">
+        <h3>Amplifier</h3>
+        <p class="price">P1200</p>
+        <a href="https://wa.me/26777730365?text=I%20want%20the%20Amplifier" class="buy">Buy</a>
+      </div>
+
+      <div class="card stance">
+        <span class="badge">New</span>
+        <img src="images/products/stance/coilovers.jpg">
+        <h3>Coilovers</h3>
+        <p class="price">P2500</p>
+        <a href="https://wa.me/26777730365?text=I%20want%20the%20Coilovers" class="buy">Buy</a>
+      </div>
+
+      <div class="card stance">
+        <img src="images/products/stance/lowering-kit.jpg">
+        <h3>Lowering Kit</h3>
+        <p class="price">P1800</p>
+        <a href="https://wa.me/26777730365?text=I%20want%20the%20Lowering%20Kit" class="buy">Buy</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Info</h2>
+    <p>📧 soundsageaudiobw@gmail.com</p>
+    <p>📞 +267 77 730 365</p>
+    <p><a href="https://wa.me/26777730365">💬 WhatsApp</a></p>
+    <p>📘 Sound Sage Botswana</p>
+  </section>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
